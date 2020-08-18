@@ -2,11 +2,11 @@
 Completed as Part of the App Academy curriculum. Implementation by Juliet Shafto and Jeff Granof.
 
 ## Project Status
-- [ ] Pipe seed file for Cities table and Airports table into new database
-- [ ] Basic `SELECT` statements
-- [ ] `SELECT` statements with `WHERE` clauses
-- [ ] Use `INNER JOIN` to combine tables
-- [ ] Bonus
+- [x] Pipe seed file for Cities table and Airports table into new database
+- [x] Basic `SELECT` statements
+- [x] `SELECT` statements with `WHERE` clauses
+- [x] Use `INNER JOIN` to combine tables
+- [x] Bonus
 
 ## Project Description
 In our SQL readings, we learned how to write basic SQL queries and incorporate
