@@ -1,5 +1,14 @@
 # Solving The SQL Menagerie
+Completed as Part of the App Academy curriculum. Implementation by Juliet Shafto and Jeff Granof.
 
+## Project Status
+- [ ] Pipe seed file for Cities table and Airports table into new database
+- [ ] Basic `SELECT` statements
+- [ ] `SELECT` statements with `WHERE` clauses
+- [ ] Use `INNER JOIN` to combine tables
+- [ ] Bonus
+
+## Project Description
 In our SQL readings, we learned how to write basic SQL queries and incorporate
 `WHERE` clauses to filter for more specific results. We also learned how to use
 a `JOIN` operation to get information from multiple tables.
@@ -11,12 +20,12 @@ We've put together a collection (let's call it a _menagerie_) of SQL problems
 for you to solve below. Solve them all, and you'll be the master of the
 menagerie!
 
-## Getting started
+### Getting started
 
 Clone the starter repository from
 https://github.com/appacademy-starters/sql-select-exercises-starter.
 
-## Project overview
+### Project overview
 
 1. In Phase 1, pipe the seed file into a new database.
 2. In Phase 2, query the seed tables with basic `SELECT` statements.
@@ -26,7 +35,7 @@ https://github.com/appacademy-starters/sql-select-exercises-starter.
 5. Bonuses! Go beyond what we learned in the readings to deepen your SQL query
    knowledge.
 
-## Phase 1: Pipe in a seed file to create new database tables
+### Phase 1: Pipe in a seed file to create new database tables
 
 We've set up a seed file for you to use in this project called
 _**cities_and_airports.sql_** that will create two tables: a "cities" table and
@@ -41,7 +50,7 @@ Go through the following steps:
 3. Pipe the _cities_and_airports.sql_ seed file into the "travel" database.
 4. Check that there's data in both the "cities" and "airports" tables.
 
-## Phase 2: Write basic SELECT statements
+### Phase 2: Write basic SELECT statements
 
 Retrieve rows from a table using `SELECT` FROM SQL statements.
 
@@ -51,7 +60,7 @@ Retrieve rows from a table using `SELECT` FROM SQL statements.
 2. Write a SQL query that returns all of the airport names contained in the
    "airports" table.
 
-## Phase 3: Add WHERE clauses
+### Phase 3: Add WHERE clauses
 
 Select specific rows from a table using WHERE and common operators.
 
@@ -89,7 +98,7 @@ Select specific rows from a table using WHERE and common operators.
     the city name, the estimated population in 2018, and the census population
     in 2010.
 
-## Phase 4: Use a JOIN operation
+### Phase 4: Use a JOIN operation
 
 Retrieve rows from multiple tables joining on a foreign key.
 
@@ -105,7 +114,7 @@ the `id` column in the "cities" table.
    York City using the city name. (_Note: Use the [aggregate function][2]
    COUNT() to count the number of matching rows._)
 
-## Bonuses
+### Bonuses
 
 1. **Apostrophe:** Write a SQL query to get all three ID codes (_the Federal
    Aviation Administration (FAA) ID, the International Air Transport Association
